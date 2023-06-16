@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>If Condition</title>
+	<link rel="icon" href="my pic.jpg">
+	<style type="text/css">
+		 .li0{
+		 	list-style-type: none;
+			
+			display: inline;
+			margin: 0px;
+			padding: 0px;
+		}
+		.li0 a{
+			display: inline-block;
+			color: black;
+			font-size: 25px;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+
+		}
+		.li0 a:hover{
+			background-color:  green ;
+			color:violet;
+		}
+			.lii{
+		 	list-style-type: none;
+			display: block;
+
+		}
+		.lii a{
+			display: block;
+			color: white;
+			font-size: 25px;
+			text-align: center;
+			text-decoration: none;
+			margin-top: 20px;
+		}
+		.lii a:hover{
+			background-color: cyan;
+			color: blue;
+		}
+		.lii .active{
+			color: brown;
+		}
+		.ul{
+			background-color: grey;
+			width: 150px;
+			height: 400px;
+			float: left;
+			position: relative;
+			margin-top: 0px;
+			border-radius: 20px;	
+		}
+		.h{
+			position: absolute;
+			right: 10px;
+		}
+		.h2{
+			color: royalblue;
+		}
+		.div1{
+			
+			position: absolute;
+			margin-left: 400px;
+			width: 600px;
+			height: 500px;
+		}
+		.div2{
+			
+			position: absolute;
+			right: 0px;
+			width: 230px;
+			height: 500px;
+		}
+		#h1{
+			background-color: darkgreen;
+			padding: 10px;
+			color: yellow;
+			border-radius: 10px;
+		}
+	</style>
+
+</head>
+<body onload="alert('Nice you are visite this site of learn if condition codes')">
+<ul class="ul1">
+	<li class="li0"><a href="home.html" >home</a></li>
+	<li class="li0"><a href="Submodules.html">Submodule</a></li>
+
+	<li class="li0"><a class="h" href="logout.html">logout</a></li>
+</ul>
+<center><p><h1 id="h1"><b><u>Countinuous to leranning some Example of If Condition</u></b></h1></p></center>
+<div>
+<ul class="ul">
+	<li class="lii"><a class="active" href="if.html">If Condition</a></li>
+	<li class="lii"><a href="Switch.html" >Switch</a></li>
+	<li class="lii"><a href="array.html">Array</a></li>
+	<li class="lii"><a href="pointer.html">Pointer</a></li>
+	<li class="lii"><a href="Structure.html">Stracture</a></li>
+	<li class="lii"><a><button onclick="window.print()">Print this page</button>
+	  <button onclick=" window. history. back()">BACK</button></a></li>
+</ul></div>
+<div class="div1">
+	<h1>This is same code that can help you to learn if condition code</h1>
+<p><h3>
+	1.	Write a C program to find the greatest<br> number among three numbers<br></h3>
+	<h2 class="h2">
+		#include <stdio.h><br>
+#include <stdlib.h><br>
+int main()<br>
+{
+    int num1,num2,num3;<br>
+    printf("Enter Number \n");<br>
+    scanf("%d %d %d",&num1,&num2,&num3);<br>
+    if(num1>num2&&num1>num3)<br>
+    {
+    printf("number greater  %d \n");<br>
+    }
+    else if(num1>num2&&num1>num3){<br>
+        printf("number  is greater %d\n");<br>
+    }
+    else if(num3>num1&&num3>num2){<br>
+        printf("number is greater %d");<br>
+    }
+    else<br>
+    {
+        printf("none is greater than other");<br>
+    }
+    return 0;<br>
+}</p>
+</h2></div>
+<div class="div2">
+	<p><h3>
+	2.	Write a C program to find out whether a given <br>year is a leap year or not<br></h3>
+	<h2 class="h2">
+	#include <stdio.h><br>
+#include <stdlib.h><br>
+int main()<br>
+{
+int year;<br>
+printf("enter you year to be check if is leap year");<br>
+scanf("%d",&year);<br>
+if(year%400==0||year%4==0&&year%100!=0)<br>
+{
+  printf("%d is leap year\n",year);<br>
+}
+else<br>
+{
+    printf("%d is not leap year\n",year);<br>
+}
+    return 0;<br>
+}
+</h2></p></div>
+</body>
+</html>

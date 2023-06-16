@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>switch</title>
+	<link rel="icon" href="my pic.jpg">
+	<style type="text/css">
+		 .li0{
+		 	list-style-type: none;
+			
+			display: inline;
+			margin: 0px;
+			padding: 0px;
+		}
+		.li0 a{
+			display: inline-block;
+			color: black;
+			font-size: 25px;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+
+		}
+		.li0 a:hover{
+			background-color:  green ;
+			color:violet;
+		}
+			.lii{
+		 	list-style-type: none;
+			display: block;
+
+		}
+		.lii a{
+			display: block;
+			color: white;
+			font-size: 25px;
+			text-align: center;
+			text-decoration: none;
+			margin-top: 20px;
+		}
+		.lii a:hover{
+			background-color: cyan;
+			color: blue;
+		}
+		.lii .active{
+			color: brown;
+		}
+		.ul{
+			background-color: grey;
+			width: 150px;
+			height: 400px;
+			float: right;
+			position: relative;
+			margin-top: 0px;
+			border-radius: 20px;	
+		}
+		.h{
+			position: absolute;
+			right: 10px;
+		}
+		#b{
+background-color:yellowgreen;
+padding: 4px;
+margin: 50px;
+		}
+		.h1{
+			background-color: yellow;
+			color: maroon;
+			border-radius: 20px;
+		}
+		.ul1{
+			background-color: tan;
+
+		}
+		.div1{
+			
+			position: absolute;
+			margin-left: 400px;
+			width: 600px;
+			height: 700px;
+		}
+		.div2{
+			
+			position: absolute;
+			width: 400px;
+			height: 700px;
+		}
+		.img{
+width:600px;
+			float: right;
+			position: relative;
+			margin-top: 0px;
+			border-radius: 20px;
+			height: 600px;
+		}
+		.h{
+			color: white;
+		}
+	</style>
+
+</head>
+<body id="b" onload="alert('Nice you are visite this site of learn Switch codes')">
+	 <button onclick=" window. history. back('back to previors page')">BACK</button>
+	 <button onclick="window.print()">Print this page</button>
+<ul>
+	<li class="li0"><a href="home.html" >home</a></li>
+	<li class="li0"><a href="Submodules.html">Submodule</a></li>
+	
+	<li class="li0"><a class="h" href="logout.html">logout</a></li>
+</ul>
+<div class="div1">
+	<h1 class="h1">This is same code that can help you to learn switch  code</h1>
+	<h3>
+		1.Write a C program to print day of week name using switch case.<br>
+2.	Write a C program print total number of days in a month using switch case.
+</h3>
+ <img src="Switchph.jpg" class="img">
+
+</div>
+<div class="div2"><h2>
+	
+#include <stdio.h><br>
+#include <stdlib.h><br>
+int main()
+{<br>
+    int day;<br>
+    printf("Dear user enter your day:");<br>
+    scanf("%d",&day);<br>
+    switch(day)
+    {<br>
+    case 1:
+        printf("Monday");<br>
+        break;<br>
+    case 2:<br>
+        printf("Tuesday");<br>
+        break;<br>
+    case 3:<br>
+        printf("Wednesday");<br>
+        break;<br>
+    case 4:<br>
+        printf("Thursady");<br>
+        break;<br>
+    case 5:<br>
+        printf("Friday");<br>
+        break;<br>
+    case 6:<br>
+        printf("Saturday");<br>
+        break;<br>
+    case 7:<br>
+        printf("Sunday");<br>
+        break;<br>
+    default:<br>
+        printf("Invalid day");
+    }<br>
+    return 0;
+}<br>
+</h2>
+	</div>
+<div>
+<ul class="ul">
+	<li class="lii"><a href="if.html">If Condition</a></li>
+	<li class="lii"><a class="active" href="Switch.html" >Switch</a></li>
+	<li class="lii"><a href="array.html">Array</a></li>
+	<li class="lii"><a href="pointer.html">Pointer</a></li>
+	<li class="lii"><a href="Structure.html">Stracture</a></li>
+		<li class="lii"><a><button onclick="window.print()">Print this page</button>
+	  <button onclick=" window. history. back()">BACK</button></a></li>
+</ul></div>
+
+</body>
+</html>

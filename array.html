@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Array</title>
+	<link rel="icon" href="my pic.jpg">
+	<style type="text/css">
+		 .li0{
+		 	list-style-type: none;
+			
+			display: inline;
+			margin: 0px;
+			padding: 0px;
+		}
+		.li0 a{
+			display: inline-block;
+			color: black;
+			font-size: 25px;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+
+		}
+		.li0 a:hover{
+			background-color:  green ;
+			color:violet;
+		}
+			.lii{
+		 	list-style-type: none;
+			display: block;
+
+		}
+		.lii a{
+			display: block;
+			color: white;
+			font-size: 25px;
+			text-align: center;
+			text-decoration: none;
+			margin-top: 20px;
+		}
+		.lii a:hover{
+			background-color: cyan;
+			color: blue;
+		}
+		.lii .active{
+			color: brown;
+		}
+		.ul{
+			background-color: grey;
+			width: 150px;
+			height: 400px;
+			float: right;
+			position: relative;
+			margin-top: 0px;
+			border-radius: 20px;	
+		}
+		.h{
+			position: absolute;
+			right: 10px;
+		}
+		#b{
+background-color: seagreen;
+padding: 4px;
+margin: 50px;
+		}
+		.h1{
+			background-color: slategrey;
+			color: maroon;
+			border-radius: 12px;
+		}
+		.ul1{
+			background-color: tan;
+
+		}
+		.div1{
+			
+			position: absolute;
+			margin-left: 400px;
+			width: 600px;
+			height: 700px;
+		}
+		.div2{
+			
+			position: absolute;
+			width: 400px;
+			height: 700px;
+		}
+		.img{
+width:600px;
+			float: right;
+			position: relative;
+			margin-top: 0px;
+			border-radius: 20px;
+			height: 600px;
+		}
+		.h{
+			color: white;
+		}
+	</style>
+
+</head>
+<center><h1 style="background-color: yellow; color: green; border-radius: 10px; height: 60px; width: 800px;">VIDEO SUPPORT YOU TO LEARNER ARRAY CODE</h1></center>
+  <video width="1500" height="400" controls >
+			<source src="C program to delete an element from an array.MP4" ></video>
+<body id="b" onload="alert('Nice you are visite this site of learn Array codes')">
+	 <button onclick="window.print()">print this page</button>
+	  <button onclick=" window. history. back()">BACK</button>
+<ul class="ul1">
+	<li class="li0"><a href="home.html" >home</a></li>
+	<li class="li0"><a href="Submodules.html">Submodule</a></li>
+	
+	<li class="li0"><a class="h" href="logout.html">logout</a></li>
+</ul>
+<div class="div1">
+	<h1 class="h1">This is same code that can help you to learn Array  code</h1>
+	<h3>
+	. Write a program in C to store elements in an array and print it.  <br>
+Test Data :<br>
+Input 10 elements in the array :<br>
+element - 0 : 1<br>
+element - 1 : 1<br>
+element - 2 : 2<br>
+.......<br>
+Expected Output :<b80
+Elements in array are: 1 1 2 3 4 5 6 7 8 9<br>
+</h3>
+ <img src="Array1.jpg" class="img">
+
+</div>
+<div class="div2">
+	<h3>
+	. Write a program in C to read n number of<br> values in an array and display it in reverse order.<br>  
+Test Data :<br>
+Input the number of elements to store in the array :3<br>
+Input 3 number of elements in the array :<br>
+element - 0 : 2<br>
+element - 1 : 5<br>
+element - 2 : 7<br>
+Expected Output :<br>
+The values store into the array are :<br>
+2 5 7<br>
+The values store into the array in reverse are :<br>
+7 5 2<br></h3>
+<h2 class="h">
+	#include < stdio.h><br>
+#include < stdlib.h><br>
+void main()
+{
+   int i,n,array[50];<br>
+       printf("Enter n number of values in an array <br>and display it in reverse order:\n");<br>
+   printf("Enter the number of elements to store in the array :");<br>
+   scanf("%d",&n);<br>
+   printf("Enter %d number of elements:\n",n);<br>
+   for(i=0;i<n;i++)
+      {
+	  printf("element - %d : ",i);<br>
+	  scanf("%d",&array[i]);
+	  }<br>
+   printf("The values store into the array are : \n");<br>
+   for(i=0;i<n;i++)
+     {
+	   printf(" %d",array[i]);<br>
+	 }
+	 printf("\n\n");
+   printf("The values store into the array in reverse are :\n");<br>
+   for(i=n-1;i>=0;i--)
+      {
+	   printf(" %d",array[i]);<br>
+	  }
+   printf("\n");}
+retorn0}
+</h2>
+	</div>
+<div>
+<ul class="ul">
+	<li class="lii"><a href="if.html">If Condition</a></li>
+	<li class="lii"><a href="Switch.html" >Switch</a></li>
+	<li class="lii"><a class="active" href="array.html">Array</a></li>
+	<li class="lii"><a href="pointer.html">Pointer</a></li>
+	<li class="lii"><a href="Structure.html">Structure</a></li>
+	<li class="lii"><a><button onclick="window.print()">Print this page</button>
+	  <button onclick=" window. history. back()">BACK</button></a></li>
+</ul></div>
+
+</body>
+</html>
